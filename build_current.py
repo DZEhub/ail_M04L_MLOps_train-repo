@@ -17,8 +17,10 @@ import boto3
 import pandas as pd
 
 # --- Configuration prod ---
-BUCKET = "demo-mlops-mehdi"
-PREFIX = "data/clean/ibm_predictions/"
+# BUCKET = "demo-mlops-mehdi"
+# s3://jedha-lead-ail-ft-01/M04_MLOps/demo-mlops-mehdi/
+BUCKET = "jedha-lead-ail-ft-01"
+PREFIX = "M04_MLOps/demo-mlops-mehdi/data/clean/ibm_predictions/"
 REFERENCE_URL = (
     "https://full-stack-assets.s3.eu-west-3.amazonaws.com/"
     "Deployment/ibm_hr_attrition.xlsx"
