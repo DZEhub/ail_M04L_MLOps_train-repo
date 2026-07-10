@@ -1,0 +1,10 @@
+__pycache__
+.env
+.env*
+logs
+*old*
+
+# ne pas inclure les fichiers secrets dans le dépôt Git
+.secret
+secrets/
+*secrets*

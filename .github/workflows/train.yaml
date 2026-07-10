@@ -67,3 +67,4 @@ jobs:
           N_ESTIMATORS: ${{ github.event.inputs.n_estimators || '150' }}
           MIN_SAMPLES_SPLIT: ${{ github.event.inputs.min_samples_split || '8' }}
           REGISTER_ALIAS: ${{ github.event.inputs.register_alias || 'challenger' }}
+
